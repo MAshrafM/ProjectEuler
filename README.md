@@ -13,3 +13,4 @@
 - 002: Even Fibonacci numbers
 - 003: Largest prime factor
 - 004: Largest palindrome product
+- 005: Smallest multiple
