@@ -14,3 +14,4 @@
 - 003: Largest prime factor
 - 004: Largest palindrome product
 - 005: Smallest multiple
+- 006: Sum square difference
