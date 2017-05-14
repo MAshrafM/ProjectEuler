@@ -16,4 +16,5 @@
 - 005: Smallest multiple
 - 006: Sum square difference  
 - 007: 10001st prime  
-- 008: Largest product in a series
+- 008: Largest product in a series  
+- 009: Special Pythagorean triplet  
