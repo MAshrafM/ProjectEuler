@@ -22,3 +22,4 @@
 - 011: Largest product in a grid  
 - 012: Highly divisible triangular number  
 - 013: Large Sum  
+- 014: Longest Collatz sequence  
