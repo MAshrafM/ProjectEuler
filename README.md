@@ -23,3 +23,4 @@
 - 012: Highly divisible triangular number  
 - 013: Large Sum  
 - 014: Longest Collatz sequence  
+- 015: Lattice paths  
