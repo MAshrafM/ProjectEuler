@@ -24,3 +24,4 @@
 - 013: Large Sum  
 - 014: Longest Collatz sequence  
 - 015: Lattice paths  
+- 016: Power digit sum  
