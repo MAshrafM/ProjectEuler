@@ -25,3 +25,4 @@
 - 014: Longest Collatz sequence  
 - 015: Lattice paths  
 - 016: Power digit sum  
+- 017: Number letter counts  
