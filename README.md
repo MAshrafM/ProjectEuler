@@ -27,3 +27,4 @@
 - 016: Power digit sum  
 - 017: Number letter counts  
 - 018: Maximum path sum I  
+- 019: Counting Sundays  
