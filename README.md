@@ -30,3 +30,4 @@
 - 019: Counting Sundays  
 - 020: Factorial digit sum  
 - 021: Amicable numbers  
+- 022: Names scores  
