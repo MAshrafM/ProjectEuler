@@ -1,6 +1,6 @@
 """
   Problem 22
-  
+  Names scores
 """
 # Open text file
 name_ul = open('p022_names.txt')
