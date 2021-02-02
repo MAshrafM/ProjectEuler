@@ -32,3 +32,5 @@
 - 021: Amicable numbers  
 - 022: Names scores  
 - 023: Non-abundant sums  
+- 024: Lexicographic permutations  
+
