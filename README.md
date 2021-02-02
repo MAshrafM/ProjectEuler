@@ -33,4 +33,4 @@
 - 022: Names scores  
 - 023: Non-abundant sums  
 - 024: Lexicographic permutations  
-
+- 025: 1000-digit Fibonacci number
