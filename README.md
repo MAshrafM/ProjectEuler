@@ -35,3 +35,4 @@
 - 024: Lexicographic permutations  
 - 025: 1000-digit Fibonacci number  
 - 026: Reciprocal cycles
+- 027: Quadratic primes
