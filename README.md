@@ -36,3 +36,4 @@
 - 025: 1000-digit Fibonacci number  
 - 026: Reciprocal cycles
 - 027: Quadratic primes
+- 028: Number spiral diagonals  
