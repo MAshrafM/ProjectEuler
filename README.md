@@ -37,3 +37,4 @@
 - 026: Reciprocal cycles
 - 027: Quadratic primes
 - 028: Number spiral diagonals  
+- 029: Distinct powers  
