@@ -38,3 +38,4 @@
 - 027: Quadratic primes
 - 028: Number spiral diagonals  
 - 029: Distinct powers  
+- 030: Digit fifth powers
