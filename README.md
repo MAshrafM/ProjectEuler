@@ -39,3 +39,4 @@
 - 028: Number spiral diagonals  
 - 029: Distinct powers  
 - 030: Digit fifth powers
+- 031: Coin sums
