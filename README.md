@@ -40,3 +40,4 @@
 - 029: Distinct powers  
 - 030: Digit fifth powers
 - 031: Coin sums
+- 032: Pandigital products
