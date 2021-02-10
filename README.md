@@ -41,3 +41,4 @@
 - 030: Digit fifth powers
 - 031: Coin sums
 - 032: Pandigital products
+- 033: Digit cancelling fractions
