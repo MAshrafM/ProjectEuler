@@ -42,3 +42,4 @@
 - 031: Coin sums
 - 032: Pandigital products
 - 033: Digit cancelling fractions
+- 034: Digit factorials
