@@ -43,3 +43,4 @@
 - 032: Pandigital products
 - 033: Digit cancelling fractions
 - 034: Digit factorials
+- 035: Circular primes
