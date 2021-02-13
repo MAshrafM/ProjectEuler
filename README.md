@@ -44,3 +44,4 @@
 - 033: Digit cancelling fractions
 - 034: Digit factorials
 - 035: Circular primes
+- 036: Double-base palindromes
