@@ -45,3 +45,4 @@
 - 034: Digit factorials
 - 035: Circular primes
 - 036: Double-base palindromes
+- 037: Truncatable primes
