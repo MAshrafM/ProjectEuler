@@ -9,7 +9,7 @@ files = ['.git', 'README.md', 'main.py', 'runners', '.gitignore']
 for f in files:
     if f in tree:
         tree.remove(f)"""
-tree = ['p006', 'p007', 'p008', 'p009', 'p010']
+tree = ['p011', 'p012', 'p013', 'p014', 'p015']
 for t in tree:
     mods = t + '.' + t
     x = importlib.import_module(mods)
