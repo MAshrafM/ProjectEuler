@@ -2,24 +2,7 @@
     Problem 21
     Amicable numbers
 """
-
-#Using prime divisors
-def eratosthenes(limit):
-    primes = []  #primes holder
-    sieve = [0]* limit  # sieve to check primes
-
-    # loop over given limit
-    for idx in range(2, limit):
-        # if the numer in the sieve skip to the next
-        if sieve[idx]:
-            continue
-        # put in the sieve the non prime of a number
-        for jdx in range(2*idx, limit, idx):
-            sieve[jdx] = 1
-        # what is left is the prime
-        primes.append(idx)
-
-    return primes
+from runners.helpful_fn import PrimeGen
 
 # Getting the divisors of all number
 def FindAllDivisors(x, prms):
@@ -62,19 +45,21 @@ def FindAllDivisors(x, prms):
 
     return divList
 
-# P021  
-UpperLimit = 10000
-prms = eratosthenes(UpperLimit)
-sumAmicible = 0
-Dn1 = 1
-Dn2 = 1
+# P021
+def p021():
+    print("Amicable numbers")  
+    UpperLimit = 10000
+    prms = PrimeGen(UpperLimit)
+    sumAmicible = 0
+    Dn1 = 1
+    Dn2 = 1
 
-for i in range(2, UpperLimit):
-    Dn1 = sum(FindAllDivisors(i, prms))
-    if (Dn1 > i and Dn1 <= UpperLimit):
-        Dn2 = sum(FindAllDivisors(Dn1, prms))
-        if (Dn2 == i):
-            sumAmicible += i + Dn1
+    for i in range(2, UpperLimit):
+        Dn1 = sum(FindAllDivisors(i, prms))
+        if (Dn1 > i and Dn1 <= UpperLimit):
+            Dn2 = sum(FindAllDivisors(Dn1, prms))
+            if (Dn2 == i):
+                sumAmicible += i + Dn1
 
-# Output
-print("p021 Ans: ", sumAmicible)
+    # Output
+    return(f"p021 Ans: {sumAmicible}")

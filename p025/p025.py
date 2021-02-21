@@ -7,8 +7,10 @@ https://en.wikipedia.org/wiki/Golden_ratio
 
 import math
 
-phi = ((1 + math.sqrt(5))/2)
-n = math.log(10, phi) * (math.log(math.sqrt(5), 10) + 999)
+def p025():
+    print("1000-digit Fibonacci number")
+    phi = ((1 + math.sqrt(5))/2)
+    n = math.log(10, phi) * (math.log(math.sqrt(5), 10) + 999)
 
 
-print(math.ceil(n))
+    print(f"P025 Ans: {math.ceil(n)}")
