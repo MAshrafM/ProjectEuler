@@ -27,6 +27,9 @@ def Perm(n, s):
     q, r = divmod(n, Factorial(len(s)-1))
     return s[q] + perm(r, s[:q] + s[q+1:])
 	
+def Rotate(s):
+    return [s[n:] + s[:n] for n in range(1, len(s))]
+
 def Factorial(n):
     
     if n < 1:
@@ -34,12 +37,10 @@ def Factorial(n):
     else:
        number = n * Factorial(n-1)
        return number
-
 	   
 def CheckPanda(n, s):
     n=str(n)
     return len(n)==s and not '1234567890'[:s].strip(n)
-	
 	
 def CheckPrime(n):
     n = int(n)
@@ -61,6 +62,12 @@ def CheckPerm(a,b):
 def CheckPalindrum(n): 
 	return str(n)==str(n)[::-1]
 
+def CheckPandigital(n, s=9):
+    n = str(n)
+    # Check if it holds all the digits from 0 - 9 and thus a pandigital num
+    # by striping the passed number from the sequence of 0 - 9
+    return len(n) == s and not '1234567890'[:s].strip(n)
+    
 """
  Primary Number test based on Miller Rabin Algorthim
  https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test

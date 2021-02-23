@@ -1,7 +1,4 @@
-
-def factorial(x):
-    if(x == 0): return 1
-    return x * factorial(x-1)
+from runners.helpful_fn import Factorial
 
 def p034():
     print("Digit factorials")
@@ -12,7 +9,7 @@ def p034():
         while(num > 0):
             d = num % 10
             num //= 10
-            sums += factorial(d)
+            sums += Factorial(d)
 
         if (sums == i):
             print(f"number found:  {i}")
