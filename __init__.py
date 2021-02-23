@@ -1,4 +1,4 @@
 #!/usr/bin/env python3
  
 if __name__ == '__main__':
-    main()
+    Print("Euler Project by MAshraf")
