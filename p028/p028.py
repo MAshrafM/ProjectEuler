@@ -17,10 +17,12 @@ A 1001*1001 = 500 rings
 f(n) = 16/3x3 + 10x2 + 26/3x + 1
 """
 import math
-limit = 500
-sums = 1
+def p028():
+    print("Number spiral diagonals")
+    limit = 500
+    sums = 1
 
-for i in range(1, 501):
-    sums += 4* pow(2*i+1, 2) - 12*i
+    for i in range(1, 501):
+        sums += 4* pow(2*i+1, 2) - 12*i
 
-print (sums)
+    return(f"p028 Ans: {sums}")
