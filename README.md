@@ -46,4 +46,5 @@
 - 035: Circular primes
 - 036: Double-base palindromes
 - 037: Truncatable primes
-- 038: Pandigital multiples
+- 038: Pandigital multiples  
+- 039: Integer right triangles  
