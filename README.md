@@ -48,4 +48,5 @@
 - 037: Truncatable primes
 - 038: Pandigital multiples  
 - 039: Integer right triangles  
-- 040: Champernowne's constant
+- 040: Champernowne's constant  
+- 041: Pandigital prime
