@@ -25,7 +25,7 @@ def Perm(n, s):
     
     if len(s)==1: return s
     q, r = divmod(n, Factorial(len(s)-1))
-    return s[q] + perm(r, s[:q] + s[q+1:])
+    return s[q] + Perm(r, s[:q] + s[q+1:])
 	
 def Rotate(s):
     return [s[n:] + s[:n] for n in range(1, len(s))]
@@ -38,10 +38,6 @@ def Factorial(n):
        number = n * Factorial(n-1)
        return number
 	   
-def CheckPanda(n, s):
-    n=str(n)
-    return len(n)==s and not '1234567890'[:s].strip(n)
-	
 def CheckPrime(n):
     n = int(n)
     if n == 2 or n == 3: return True
