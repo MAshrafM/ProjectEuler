@@ -50,4 +50,5 @@
 - 039: Integer right triangles  
 - 040: Champernowne's constant  
 - 041: Pandigital prime  
-- 042: Code triangle numbers
+- 042: Code triangle numbers  
+- 043: Sub-string divisibility  
