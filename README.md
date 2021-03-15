@@ -52,3 +52,4 @@
 - 041: Pandigital prime  
 - 042: Code triangle numbers  
 - 043: Sub-string divisibility  
+- 044: Pentagon numbers

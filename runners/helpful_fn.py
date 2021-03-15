@@ -63,7 +63,11 @@ def CheckPandigital(n, s=9):
     # Check if it holds all the digits from 0 - 9 and thus a pandigital num
     # by striping the passed number from the sequence of 0 - 9
     return len(n) == s and not '1234567890'[:s].strip(n)
-    
+
+def CheckPentagonal(n):
+    x = ((sqrt(24*n + 1) + 1) / 6) % 1
+    return not bool(x)
+
 """
  Primary Number test based on Miller Rabin Algorthim
  https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test
