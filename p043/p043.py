@@ -5,6 +5,7 @@ def check(n):
     return int(s[1:4]) % 2 == 0 and int(s[2:5]) % 3 == 0
 
 def p043(): 
+    print("Sub-string divisibility")
     s = 0
     for i in range(0, 18):
         a = int(Perm(i, '4310') + '952867')
