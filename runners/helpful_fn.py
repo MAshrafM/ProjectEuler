@@ -68,6 +68,9 @@ def CheckPentagonal(n):
     x = ((sqrt(24*n + 1) + 1) / 6) % 1
     return not bool(x)
 
+def CheckSquare(n):
+    temp = sqrt(n) % 1
+    return not bool(temp)
 """
  Primary Number test based on Miller Rabin Algorthim
  https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test
