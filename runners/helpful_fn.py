@@ -100,3 +100,17 @@ def primePass(temp, pdx, digits, n):
             return True
         num_to_power = pow(num_to_power, 2, n)
     return num_to_power == n - 1
+
+def PrimeFactorization(x, arr):
+    factors = []
+    remain = x
+    for i in range(0, len(arr)):
+        if (arr[i] * arr[i] > x and arr[i] > remain): return factors 
+        exp = 1
+        while(remain % arr[i] == 0):
+            remain /= arr[i]
+            exp += 1
+        if exp > 1:
+            factors.append([arr[i], exp - 1])
+        if (remain == 1): return factors 
+    return factors
