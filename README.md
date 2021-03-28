@@ -55,3 +55,4 @@
 - 044: Pentagon numbers
 - 045: Triangular, pentagonal, and hexagonal
 - 046: Goldbach's other conjecture
+- 047: Distinct primes factors
